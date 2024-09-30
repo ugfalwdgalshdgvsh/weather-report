@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#master-container{
+    width: 700px;
+    height: 600px;
+    filter: drop-shadow(0px 0px 10px rgb(97, 97, 97));
+}
+#hero-container{
+    width: 700px;
+    height: 500px;
+    position: relative;
+    filter: saturate(5);
+}
+img{
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
+#city-text{
+    margin: 0px;
+    color: rgb(255, 230, 0);
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+#days-container{
+    width: 700px;
+    height: 100px;
+    display: flex;
+    background-color: rgb(93, 231, 255);
+}
+.day-item{
+    width: 100px;
+    height: 100px;
+}
+.day-item:hover{
+    background-color: rgb(0, 174, 255);
+}
+.day-item:active{
+    background-color: rgb(255, 255, 255);
+}
+h4{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 230, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.weather-icon{
+    width: 35px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    filter: invert(1);
+    color: crimson;
+}
